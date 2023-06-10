@@ -15,7 +15,7 @@ const initialState = {
     error: undefined
 }
 
-export const useStore = create(
+export const useGithubStore = create(
     persist(
         (set, get) => ({
             ...initialState,
