@@ -3,7 +3,6 @@
 import useStore from "@/hooks/useStore";
 import { useGithubStore } from "@/store";
 import React, { useState } from "react"
-import shallow from "zustand/shallow";
 
 export default function Home() {
     const githubStore = useStore(useGithubStore, state => ({
