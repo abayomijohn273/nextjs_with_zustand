@@ -15,7 +15,6 @@ export default function Home() {
     const [search, setSearch] = useState("")
 
     const handleSubmit = async (e) => {
-        console.log(search);
         e.preventDefault()
 
         const payload = {
